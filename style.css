@@ -1,0 +1,97 @@
+/* Base Styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Layout Styles */
+.l-header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.l-header__nav {
+  margin-top: 1rem;
+}
+
+.l-main {
+  padding: 2rem;
+  display: flex;
+  gap: 1em;
+}
+
+.l-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* Module Styles */
+.module {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.hero {
+  background-color: #3c3d37;
+  color: white;
+  width: 400px;
+  height: 300px;
+  padding: 2rem;
+}
+
+.feature {
+  color: white;
+  width: 400px;
+  height: 300px;
+  padding: 2rem;
+}
+
+.module--primary {
+  background-color: #40534c;
+}
+
+.module--secondary {
+  background-color: #173b45;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-list__item {
+  list-style: none;
+}
+
+/* State Styles */
+.is-active {
+  font-weight: bold;
+}
+
+/* Theme Styles */
+.theme-light {
+  background-color: white;
+  color: black;
+}
+
+.theme-dark {
+  background-color: #121212;
+  color: white;
+}
